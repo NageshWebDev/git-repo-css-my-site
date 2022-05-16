@@ -1,0 +1,460 @@
+.body{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #FFC9CD;
+}
+
+.bottom-container{
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  background-color: #FFC9CD;
+  left: 0;
+  top : 3450px;
+  width: 1519px;
+}
+
+.description:hover{
+  color: #5D669F;
+}
+
+.description{
+  display: inline-block;
+  position: absolute;
+  font-size: x-large;
+  margin-top: 140px;
+  margin-left: 60px;
+}
+
+.dotted{
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 10px;
+  border-color: white;
+  width: 5%;
+}
+
+.dot-1{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 325px;
+}
+
+.dot-2{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 725px;
+}
+
+.dot-3{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 1110px;
+}
+
+.eagle{
+  width: 350px;
+}
+
+.eagle-container:hover{
+  transition:  1s;
+  filter: blur(0);
+}
+
+.eagle-container{
+  /*background-color: white;*/
+
+  width: 300px;
+  height:400px;
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  top: 25px;
+  filter: blur(2px);
+-webkit-transition: all 2.5s ease;
+-moz-transition: all 2.5s ease;
+-o-transition: all 2.5s ease;
+-ms-transition: all 2.5s ease;
+transition: all 2.5s ease;
+}
+
+.heading:hover{
+   color : #5D669F;
+}
+
+.heading{
+   font-family: 'Charmonman', cursive;
+   display: inline-block;
+   position: absolute;
+   font-size: 80px;
+   margin-top: 0;
+   margin-bottom: 10px;
+   margin-left: 30px;
+}
+
+.heading-hobby-container{
+  width: 40%;
+  margin : auto;
+  font-family: 'Gentium Basic', serif;
+  font-size: 50px;
+  color: Black;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.heading-hobby-container:hover{
+  transform: scale(1.15);
+  color : #2f6a6e;
+}
+
+.hi-container{
+  /*background: white;*/
+  display: inline-block;
+  position: absolute;
+  top: 75px;
+  right: 575px;
+  -webkit-transition: all 2.5s ease;
+  -moz-transition: all 2.5s ease;
+  -o-transition: all 2.5s ease;
+  -ms-transition: all 2.5s ease;
+  transition: all 2.5s ease;
+}
+
+.hi-container:hover{
+  transform: scale(1.25);
+}
+
+.hi_intro{
+  font-size: 20px;
+  font-family: 'Hepta Slab', serif;
+  color : black;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.hobby-container{
+  /*background-color: #73777B;*/
+  background-color: #F1EEE9;
+  display: inline-block;
+  position: absolute;
+  height: 500px;
+  width: 1519px;
+  left: 0;
+}
+
+.hobby-sub-container{
+  background-color: #F1EEE9;
+  /*background-color: orange;*/
+  display: inline-block;
+  position: absolute;
+  height: 420px;
+  width: 1519px;
+  left: 0;
+}
+
+.hobby-g{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  /*background-color: brown;*/
+  width: 30%;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.hobby-g:hover{
+  transform: scale(1.20);
+}
+
+.hobby-m{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 521px;
+  /*background-color: red;*/
+  width: 30%;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.hobby-m:hover{
+  transform: scale(1.20);
+}
+
+.hobby-pv{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  /*background-color: blue;*/
+  width: 30%;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.hobby-pv:hover{
+  transform: scale(1.20);
+}
+
+
+.hunter-container{
+  /* background-color: red; */
+  width: 50px;
+  height:50px;
+  display: inline-block;
+  position: absolute;
+  right: 515px;
+  top: 530px;
+}
+
+.intro-container{
+  width: 600px;
+  height:400px;
+  display: inline-block;
+  position: absolute;
+  left: 550px;
+  top: 50px;
+}
+
+.middle-container{
+  color: #ff4f5a;
+  text-align: center;
+  background-color: #F1EEE9;
+  display: block;
+  position: absolute;
+  width: 1519px;
+  top: 1029px;
+}
+
+.mountain{
+  width: 1519px;
+}
+
+.mountain-container{
+  /*background-color: brown;*/
+  width: 1519px;
+  height: 853.88px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.propeller-plane{
+  width: 600px;
+}
+
+.propeller-plane-container:hover{
+   /*transition:  2s;         /* smoothing effect */
+    transform: scale(1.5);  /* zoom in effect */
+    filter: blur(0);
+}
+
+.propeller-plane-container{
+  /*background-color: white;*/
+  height: 75px;
+  width: 525px;
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  filter: blur(0.5px);
+  -webkit-transition: all 2.5s ease;
+  -moz-transition: all 2.5s ease;
+  -o-transition: all 2.5s ease;
+  -ms-transition: all 2.5s ease;
+  transition: all 2.5s ease;
+}
+
+.rule{
+  color : white;
+  border-style: none;
+  border-top-style : solid;
+  border-width: 4px;
+  width : 80%;
+}
+
+.skills{
+  width: 1519px;
+  display: inline-block;
+  position: absolute;
+  background-color: #F1EEE9;
+  /*background-color: red;*/
+  top: 1090px;
+  left: 0;
+  height: 1500px;
+}
+
+.skill-1{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  /*background-color: brown;*/
+  width: 30%;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.skill-1:hover{
+  transform: scale(1.20);
+}
+
+.skill-1-description{
+  position: absolute;
+  display: inline-block;
+  top: 110px;
+  left: 550px;
+  width: 40%;
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+}
+
+.skill-1-description:hover{
+  transform: scale(1.25);
+}
+
+.skill-2{
+  display: inline-block;
+  position: absolute;
+  top: 400px;
+  left: 60px;
+  /*background-color: red;*/
+  width: 30%;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.skill-2:hover{
+  transform: scale(1.20);
+}
+
+.skill-2-description{
+  position: absolute;
+  display: inline-block;
+  top: 500px;
+  left: 550px;
+  width: 40%;
+    -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
+    transition: all 1.5s ease;
+}
+
+.skill-2-description:hover{
+  transform: scale(1.25);
+}
+
+.skill-3{
+  display: inline-block;
+  position: absolute;
+  top: 800px;
+  left: 60px;
+  /*background-color: blue;*/
+  width: 30%;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.skill-3:hover{
+  transform: scale(1.20);
+}
+
+.skill-3-description{
+  position: absolute;
+  display: inline-block;
+  top: 900px;
+  left: 550px;
+  width: 40%;
+
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  -ms-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.skill-3-description:hover{
+  transform: scale(1.25);
+}
+
+.skills-row{
+display: inline-block;
+position: absolute;
+top: 150px;
+left: 0;
+width: 1519px;
+}
+
+.sub-top-container{
+  /*background-color: white;*/
+  height: 150px;
+  width: 400px;
+  display: inline-block;
+  position: absolute;
+  top: 75px;
+  left: 575px;
+}
+
+.span:hover{
+  text-decoration: underline black;
+}
+
+.text_color{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color : black;
+}
+
+.three-box{
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  top:1250px;
+  height: 600px;
+  width: 800px;
+}
+
+.top-container{
+  /*background-color: black;*/
+  width: 1519px;
+  height: 854px;
+  display: block;
+  position: absolute;
+  top: 175px;
+}
+
+
+span{
+  text-decoration: underline white;
+}
